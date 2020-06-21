@@ -442,6 +442,9 @@
                                 <rect key="frame" x="305" y="740" width="79" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="See More &gt;"/>
+                                <connections>
+                                    <segue destination="sRj-lO-f3x" kind="show" id="9Wo-VA-bTX"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -993,7 +996,7 @@
             </objects>
             <point key="canvasLocation" x="5248" y="1010"/>
         </scene>
-        <!--VO2 Max-->
+        <!--Sleep-->
         <scene sceneID="hjL-dR-yDo">
             <objects>
                 <viewController id="sRj-lO-f3x" sceneMemberID="viewController">
@@ -1047,7 +1050,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="Qr9-SN-RaB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="VO2 Max" id="Lka-dd-reK"/>
+                    <navigationItem key="navigationItem" title="Sleep" id="Lka-dd-reK"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BCU-Tq-nbS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
